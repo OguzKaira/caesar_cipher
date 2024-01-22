@@ -12,13 +12,13 @@ This tool is created for educational purposes and to demonstrate the Caesar Ciph
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/caesar-cipher-tool.git
-   cd caesar-cipher-tool
+   git clone https://github.com/your-username/caesar_chiper.git
+   cd caesar_cipher
    ```
 
 2. **Run the Script:**
    ```bash
-   python interactive_caesar_cipher.py
+   python caesar_cipher.py
    ```
 
 3. **Follow the Prompts:**
