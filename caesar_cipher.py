@@ -11,7 +11,7 @@ def caesar_cipher(text, shift, direction):
     return result
 
 def main():
-    print("Welcome to the Caesar Cipher Encryption/Decryption tool!")
+    print("Welcome to the Caesar Cipher Encryption/Decryption tool")
     text = getpass.getpass("Enter the text to be encrypted/decrypted: ")
 
     while True:
@@ -25,8 +25,8 @@ def main():
         try:
             shift = int(input("Enter the shift value for the Caesar cipher: "))
             break
-        except:
-            print("Problem occurred!")
+        except ValueError:
+            print("Invalid input. Please enter a valid integer for the shift value.")
 
     result = caesar_cipher(text, shift, direction)
     print("Result: {}".format(result))
